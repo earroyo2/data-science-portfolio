@@ -1,4 +1,4 @@
-theme: jekyll-theme-dinky
+
 Elena Arroyo
 Data Science Student
 UNC Charlotte
