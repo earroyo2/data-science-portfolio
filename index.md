@@ -8,6 +8,6 @@ I am a third year Data Science student at UNC Charlotte. My goals in data scienc
 --
 ## Portfolio
 
-- [Blog](blog)
+- [Blog](blog1.md)
 - [Projects](projects.md)
   
