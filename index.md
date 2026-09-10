@@ -12,5 +12,5 @@ I am a third year Data Science student at UNC Charlotte. My goals in data scienc
 
 [Projects](projects.md)
 
-[LinkedIn](www.linkedin.com/in/elena-arroyo-636b38333)
+[LinkedIn](index.html)
   
