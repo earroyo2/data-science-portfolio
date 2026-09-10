@@ -21,4 +21,5 @@ I am a third year Data Science student at UNC Charlotte. My goals in data scienc
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 </div>
-  
+
+<a href="https://www.linkedin.com/in/elena-arroyo-636b38333" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
