@@ -4,6 +4,6 @@ This section documents my data science projects, research questions, and data st
 
 --
 
-## Project 1
+## Project 1- Data Science Project Portfolio 1
 
 Coming soon.
