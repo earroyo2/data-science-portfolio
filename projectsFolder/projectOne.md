@@ -16,7 +16,7 @@ While scanning my datasets, I noticed that some rows contained null/empty values
 
 
 ## Limitations, Ethics, and Reflection
-
+The details of this dataset fail to capture the demographics of every single county in North Carolina, which of course leads to a collection gap. If there were a way for me to do so, I would explore the demographics (variables) across every single county in North Carolina.
 
 ## Code and Transparency
 
