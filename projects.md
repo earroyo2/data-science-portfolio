@@ -6,4 +6,5 @@ This section documents my data science projects, research questions, and data st
 
 ## Project 1- Data Science Project Portfolio 1
 
-Coming soon.
+**Do counties in North Carolina with larger populations have a higher percentage of Black women in higher education?**
+[Click here to view the project](projectsFolder/projectOne.md)
