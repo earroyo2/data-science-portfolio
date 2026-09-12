@@ -5,10 +5,10 @@ I am a third year Data Science student at UNC Charlotte. My goals in data scienc
 --
 ## Portfolio
 
-[Blog](blog/blog1.md)
+** [Blog](blog/blog1.md) **
 
-[Projects](projects.md)
+** [Projects](projects.md) **
 
-<a href="https://www.linkedin.com/in/elena-arroyo-636b38333" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+ ** <a href="https://www.linkedin.com/in/elena-arroyo-636b38333" target="_blank" rel="noopener noreferrer">LinkedIn</a> **
 
-[Resume](Resume2026.pdf)
+** [Resume](Resume2026.pdf) **
