@@ -9,10 +9,10 @@ The key variables in this project include: Name of the county, total population 
 ## Data Cleaning and Preparation
 While scanning my datasets, I noticed that some rows contained null/empty values. The method that I used for cleaning up this data was using the .dropna() function, and dropping the rows with missing values. My justification for dropping the rows was because they didn't appear on my visualizations, therefore they did not provide any actual value to my research question.
 
-## Visualizations and Insights
+## Visualizations, Insights, and Narrative
+[TotPopVBW.png]
 
 
-## Narrative
 
 
 ## Limitations, Ethics, and Reflection
