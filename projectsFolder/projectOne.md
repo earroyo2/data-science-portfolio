@@ -1,7 +1,7 @@
 # Do counties in North Carolina with large populations have a higher percentage of Black women in higher education?
 
 ## Problem Definition
-
+The problem that I chose to explore was "Do counties in North Carolina with larger populations have a higher percentage of Black women in higher education?". The reason I chose this topic, is because as a Black woman who is pursuing a bachelor's degree, I am aware that there aren't as many Black women that I expected who are pursuing or have higher education degrees. One of my goals in life is to serve as an example for younger Black girls, so that they can grow up and aspire to pursue higher education as well.
 
 ## Data Description
 The key variables in this project include: Name of the county, total population by county, total population of Black women by county, and total population of Black women with a bachelor's degree or higher by county. The data was collected from the American Community Survey (ACS) by the US Census Bureau. The most recent data available via an API was from 2024. Each row represents data from a county in North Carolina that the Bureau collected. The main features of the data display the variables in each column. During the data collection, I realized that the dataset was not as large as I expected it to be. I assumed that all 100 counties in North Carolina would be in the dataset, but that turned out to not be the case. After doing a bit of research on the Census Bureau's website, I discovered that the American Community Survey (ACS) "only releases 1-year data for population groups sized 65,000 or more" (Rosenthal 2020). 
