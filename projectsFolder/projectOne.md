@@ -11,7 +11,8 @@ While scanning my datasets, I noticed that some rows contained null/empty values
 
 ## Visualizations, Insights, and Narrative
 <img src="TotPopVBW.png" alt="Bar Chart" width="400">
-The first visualization that I decided to create, was a bar chart of the total population in each county in North Carolina (from the cleaned data) versus the total population of Black women there. As observed in the chart, all county's in our state have a small population of Black women compared to the total. In the most populated county recorded in 2024, Wake county had a total of just over 1.2 million people, with their population of Black women being only 125,000. Thus meaning that even the most heavily populated county in North Carolina was made up of 10.16% Black women. In contrast, there were many counties 
+
+The first visualization that I decided to create, was a bar chart of the total population in each county in North Carolina (from the cleaned data) versus the total population of Black women there. As observed in the chart, all county's in our state have a small population of Black women compared to the total. In the most populated county recorded in 2024, Wake county had a total of just over 1.2 million people, with their population of Black women being only 125,000. Thus meaning that even the most heavily populated county in North Carolina was made up of 10.16% Black women. In contrast, there were many counties who had null values of Black women that I decided to include. It may seem silly to include a visualization of these counties with no recorded population of Black women, but it was for a reason. These counties (Buncombe, Burke, Caldwell, etc.) most likely had null values due to there being a significantly low population of Black women
 
 
 
