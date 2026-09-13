@@ -10,7 +10,7 @@ The key variables in this project include: Name of the county, total population 
 While scanning my datasets, I noticed that some rows contained null/empty values. The method that I used for cleaning up this data was using the .dropna() function, and dropping the rows with missing values. My justification for dropping the rows was because they didn't appear on my visualizations, therefore they did not provide any actual value to my research question.
 
 ## Visualizations, Insights, and Narrative
-<img src="data-science-portfolio/TotPopVBW.png" alt="Bar Chart" width="400">
+<img src="TotPopVBW.png" alt="Bar Chart" width="400">
 
 
 
