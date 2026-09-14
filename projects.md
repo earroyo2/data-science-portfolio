@@ -1,6 +1,6 @@
 # Projects
 
-This section documents my data science projects, research questions, and data storied I create throughout the semesters.
+This section documents my data science projects, research questions, and data stories that I create throughout the semesters.
 
 --
 
