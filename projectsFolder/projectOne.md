@@ -32,8 +32,11 @@ The details of this dataset fail to capture the demographics of every single cou
 
 ## Citations
 Author(s, & Rosenthal, J. (2020, January 2). 4 Easy pieces regarding census data. Nc.Gov. https://www.commerce.nc.gov/blog/2020/01/02/4-easy-pieces-regarding-census-data
+
 Bureau, U. C. (2020, September 17). American Community survey 1-Year data (2005-2024). The United States Census Bureau. https://www.census.gov/data/developers/data-sets/acs-1year.html
+
 US Census Bureau. (2025, September 11). Variables. ACS 2024 Variables. https://api.census.gov/data/2024/acs/acs1/variables.html
+
 <ins> Variables Used: </ins> C15002B_011E (Black women per county with a degree), B01001B_017E (Total population of Black women per county), and B01001_001E (Total population per county).
 
 
