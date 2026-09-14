@@ -28,7 +28,7 @@ From the calculations that were made, there is a clear gap in the educational at
 The details of this dataset fail to capture the demographics of every single county in North Carolina, which of course leads to a collection gap. If there were a way for me to do so, I would explore the demographics (variables I selected) across every single county in North Carolina. I believe that it is unfair to represent only a percentage of counties per state depending on their population size, and that everyone (no matter how small their numbers may be) deserves to be represented in the US Census Bureau.
 
 ## Code
-[Please click here to view the code!]([PortfolioProjectOne.ipynb](https://github.com/earroyo2/data-science-portfolio/blob/main/projectsFolder/PortfolioProjectOne.ipynb))
+[Please click here to view the code!](https://github.com/earroyo2/data-science-portfolio/blob/main/projectsFolder/PortfolioProjectOne.ipynb)
 
 ## Citations
 Author(s, & Rosenthal, J. (2020, January 2). 4 Easy pieces regarding census data. Nc.Gov. https://www.commerce.nc.gov/blog/2020/01/02/4-easy-pieces-regarding-census-data
