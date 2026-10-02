@@ -13,7 +13,11 @@ As previously stated, the data came from a website called Kaggle and was uploade
 ## Data Understanding, Exploration, Preparation, and Feature Selection
 Due to the size of the original dataset (and it exceeding the maximum row count that my computer can read), I decided to trim down the amount of rows that I planned on using in the models. The original dataset contained listings from various cities in every state and since I live in North Carolina, I decided to use listings exclusively from my state (making the row count 85,745). After creating a new file with exclusively North Carolina listings, I was sifting through the file to make sure that I obtained the correct information when I noticed that some of the observations did not include values for variables such as bed, bath, and house_size. This is when it occurred to me that the listings within this dataset not only included residential buildings, but empty lots of land as well. Since my problem is based around the prediction of actual building prices, I made the decision to again trim the dataset and remove rows that had missing values for bed, bath, and house_size variables (making the final row count 37,342). When looking at the summary statistics of the housing listings for my final dataset, I noticed that the average listing had 3 bedrooms and 2 bathrooms, and the average house was 2,058 square feet. In order to further gauge the relationships between the target variable (price) and the other features, I decided to create two different scatterplots comparing the number of bedrooms vs. price, and number of bathrooms vs. price (per listing). The reason that I chose the bed and bath variables for my visualizations is because one of the very first aspects of a house that you see listed under the price is the number of bedrooms and number of bathrooms. Since these two variables are always prominently displayed with the price in listings, I thought that it would be most relevant to use them as visualizations. 
 
-(BedVPrice.png)
+<img src="BedVPrice.png" alt="Scatter Plot 1" width="400">
+
+
+
+<img src="BathVPrice.png" alt="Scatter Plot 2" width="400">
 
 
 
