@@ -6,7 +6,7 @@ As someone who has recently entered adulthood, one of the most crucial component
 
 
 ## Background and Context
-In order to understand this problem in general, not much is needed to know besides the fact that different aspects of a home (number of bathrooms/bedrooms, location, etc.) impact the price. As for the code aspect of this project, you will need to understand scikit-learn libraries in Python. (Incomplete)
+In order to understand this problem in general, not much is needed to know besides the fact that different aspects of a home (number of bathrooms/bedrooms, location, etc.) impact the price. As for the code aspect of this project, you will need to understand scikit-learn libraries in Python. 
 
 ## Data Description
 As previously stated, the data came from a website called Kaggle and was uploaded by Ahmed Shahriar Sakib. An exact date of publication was not listed, but the website did state that the dataset was last updated 3 years ago. The original dataset that I obtained from the website contained 2,226,382 entries and 10 different columns (Shakhriar Sakib 2023). Each row represents a single listing on Realtor.com with available features such as brokered_by, status, price, bed, bath, acre_lot, street, city, state, zip_code, house_size, and prev_sold_date. Since the data was already prepared in a csv file, I did not have any limitations or restrictions with the data itself.
