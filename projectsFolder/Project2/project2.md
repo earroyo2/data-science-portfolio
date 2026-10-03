@@ -37,7 +37,7 @@ The evaluation metrics that I decided to choose for my models were R^2 and Root 
 ## Model Interpretation and Insights
 After creating a bar chart to display the features vs. their coefficients in the Linear Regression model (baseline), the chart showcased that the 'bath' and 'house_size' features have the largest impact on price with coefficients of 255,663.55 and 95,764.56 (respectively). The coefficient values display the price change per single unit of change by feature. 
 
-<img src="BedVPrice.png" alt="BarChart1" width="400">
+<img src="LinModelBarChart.png" alt="BarChart1" width="400">
 
 
 
