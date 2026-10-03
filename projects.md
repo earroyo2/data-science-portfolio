@@ -12,5 +12,5 @@ This section documents my data science projects, research questions, and data st
 
 ## Project 2- Data Science Project Portfolio 2
 
-** **
+**Is it possible to predict the price of a house based off of number of bedrooms, bathrooms, acreage, and square footage alone?**
 [Click here to view the project](projectsFolder/Project2/project2.md)
