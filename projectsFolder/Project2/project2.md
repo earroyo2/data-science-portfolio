@@ -61,9 +61,9 @@ There are no biases or gaps that exist in the dataset, but someone who is a new 
 ## Sources
 -McCue, D. (2026, June 17). Ten takeaways from the 2026 state of the nation’s housing. Joint Center for Housing Studies. https://www.jchs.harvard.edu/blog/ten-takeaways-2026-state-nations-housing
 
--Office of Policy Development and Research. (2026). USHMC - national housing market indicators|HUD USER. Www.Huduser.Gov. https://www.huduser.gov/portal/ushmc/hmi-update.html
+-Office of Policy Development and Research. (2026). USHMC - national housing market indicators. HUD USER. Www.Huduser.Gov. https://www.huduser.gov/portal/ushmc/hmi-update.html
 
--Realtor. (2018). Find real estate, homes for sale, apartments & houses for rent|realtor.Com®. Realtor.Com. https://www.realtor.com/
+-Realtor. (2018). Find real estate, homes for sale, apartments & houses for rent. realtor.Com®. Realtor.Com. https://www.realtor.com/
 
 -Shahriar Sakib, A. (2023). USA Real Estate dataset. Www.Kaggle.Com. https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
 
