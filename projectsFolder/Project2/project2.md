@@ -44,13 +44,15 @@ After creating a bar chart to display the features vs. their coefficients in the
 
 One major outlier in the chart that I'd like to point out is the negative coefficient value for the 'bed' feature. This coefficient value came out to be -53,786.09, which is interesting considering the fact that the coefficient for 'bath' is so high (typically the number of bathrooms in a house is dependent on the number of bedrooms). Since the number of bathrooms can be predicted by the number of bedrooms in a house, this would suggest multicollinearity within the model, which explains why the coefficients for the 'bed' and 'bath' variables are the way they are. Now, this does not necessarily mean that the number of bedrooms decreases the price of the house, it simply just means that the number of bathrooms is a better estimator for the price of a home. This may be due to factors such as the plumbing and electricity required to make the bathrooms functional, which makes sense as those functions are more costly than building another empty room. 
 
-As for the conclusion that can be drawn for the model: Despite it having the highest R^2 value, the final chosen model is only able to predict 45.63% of the variation in housing prices with the features chosen, meaning that it is not exactly a good model for predicting housing price. Below I have provided a scatterplot displaying the actual vs. predicted prices. 
+As for the conclusion that can be drawn for the model: Despite it having the highest R^2 value, the final chosen model is only able to predict 45.63% of the variation in housing prices with the features chosen, meaning that it is not exactly a good model for predicting housing price. This is most likely because other features in the model that I did not measure such as 'city' and 'zip_code' probably have a heavier affect on the total price of a house.
+
+Below I have provided a scatterplot displaying the actual vs. predicted prices. 
 
 <img src="ActualVsPredicted.png" alt="ScatterPlot3" width="400">
 
-## Limitations, Ethics, and Reflection
 
+## Limitations, Ethics, and Reflection
+There are no biases or gaps that exist in the dataset, but someone who is a new and upcoming real estate agent may be affected by incorrect predictions. As for real-world decision-making, this model would not be appropriate as it only predicts a little less than half of the variation in housing prices and not all of it. If I were able to, I would test the features I chose including 'zip_code' and 'city' so that I can incorporate the location aspect of the price as well. Before relying on the model, users should understand that this model only reflects about half of the prices in the dataset and does not include any location variables in the equation, solely focusing on aspects of the home itself.
 
 
 ## Code and Transparency
-
