@@ -16,12 +16,15 @@ Due to the size of the original dataset (and it exceeding the maximum row count 
 <img src="BedVPrice.png" alt="Scatter Plot 1" width="400">
 
 
+When looking at the scatterplot above for the number of bedrooms vs. the price per listing, there are obviously a few outliers. Namely, the one listing with 60 bedrooms. This intrigues me, as what kind of residential building for sale has 60 bedrooms? Along with this finding, I noticed that most of the listings on the scatterplot have under 10 bedrooms and are under $2,000,000.
+
 
 <img src="BathVPrice.png" alt="Scatter Plot 2" width="400">
 
 
+When looking at the scatterplot above for the number of bathrooms vs. the price per listing, most of the listings have under 10 bathrooms. One listing (in similar fashion to the plot above) has over 50 bathrooms and is just under $4,000,000. 
 
-The features that I decided to choose for my models were bed, bath, price, acre_lot, and house_size, as since they are numerical they would be the best choice for my prediction problem. I separated my data for testing and training by using the 'train_test_split' function from the 'sklearn.model_selection' library, and prevented data leakage by using the 'StandardScaler' function in 'sklearn.preprocessing'. 
+After looking at the scatterplots above and a few of the outliers, I realized that there must be multiple factors that affect the price of the listing, as a house with 60 bedrooms for only $4,000,000 seems impossible.The features that I decided to choose for my models were bed, bath, price, acre_lot, and house_size, as since they are numerical they would be the best choice for my prediction problem. I separated my data for testing and training by using the 'train_test_split' function from the 'sklearn.model_selection' library, and prevented data leakage by using the 'StandardScaler' function in 'sklearn.preprocessing'. 
 
 ## Baseline and Model Development
 The baseline model that I chose was the linear regression model, as my problem is focused around prediction. As for the machine-learning models, I chose to train Lasso and Ridge models because they are a good alternative if the original model has strong multicollinearity. I did not tune any of the model's settings or hyperparameters, and I ensured that the models were compared fairly by initializing and executing the models in the exact same way, as well as extracted the same metrics.
