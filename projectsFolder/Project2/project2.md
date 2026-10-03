@@ -1,5 +1,6 @@
 # Project 2
 
+
 ## Problem Definition
 As someone who has recently entered adulthood, one of the most crucial components of living on your own is WHERE you are going to live. Not only is the 'where' aspect of a home most important, but another humongous factor of choosing a place to live is price. In this project, I will be predicting the price of various house listings in North Carolina from a dataset via the website Kaggle and was collected "via web scraping using python libraries" (Shahriar Sakib 2023). The target variable of this project is of course 'price' and since this is a numerical feature, it is classified as a regression problem. Someone who may benefit from this model or its predictions may be someone who is in the process of looking for a home, or a new realtor who wants to see which factors impact the price of a home listing. This prediction problem is worth investigating, as if you were someone in the process of looking for a home and the location (for example) is a large factor in price, then that person may want to look for a home in a smaller/less populated location in order to find a cheaper home. 
 
@@ -43,7 +44,7 @@ After creating a bar chart to display the features vs. their coefficients in the
 
 One major outlier in the chart that I'd like to point out is the negative coefficient value for the 'bed' feature. This coefficient value came out to be -53,786.09, which is interesting considering the fact that the coefficient for 'bath' is so high (typically the number of bathrooms in a house is dependent on the number of bedrooms). Since the number of bathrooms can be predicted by the number of bedrooms in a house, this would suggest multicollinearity within the model, which explains why the coefficients for the 'bed' and 'bath' variables are the way they are. Now, this does not necessarily mean that the number of bedrooms decreases the price of the house, it simply just means that the number of bathrooms is a better estimator for the price of a home. This may be due to factors such as the plumbing and electricity required to make the bathrooms functional, which makes sense as those functions are more costly than building another empty room. 
 
-As for the conclusion that can be drawn for the model: Despite it having the highest R^2 value, the final chosen model is only able to predict 45.63% of the variation in housing prices with the features chosen, meaning that it is not exactly a good model for predicting housing price. Below I have provided a scatterplot displaying the predicted vs. actual prices.
+As for the conclusion that can be drawn for the model: Despite it having the highest R^2 value, the final chosen model is only able to predict 45.63% of the variation in housing prices with the features chosen, meaning that it is not exactly a good model for predicting housing price. Below I have provided a scatterplot displaying the actual vs. predicted prices. 
 
 <img src="ActualVsPredicted.png" alt="ScatterPlot3" width="400">
 
