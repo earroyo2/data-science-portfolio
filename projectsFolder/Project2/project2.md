@@ -55,5 +55,8 @@ Below I have provided a scatterplot displaying the actual vs. predicted prices.
 There are no biases or gaps that exist in the dataset, but someone who is a new and upcoming real estate agent may be affected by incorrect predictions. As for real-world decision-making, this model would not be appropriate as it only predicts a little less than half of the variation in housing prices and not all of it. If I were able to, I would test the features I chose including 'zip_code' and 'city' so that I can incorporate the location aspect of the price as well. Before relying on the model, users should understand that this model only reflects about half of the prices in the dataset and does not include any location variables in the equation, solely focusing on aspects of the home itself.
 
 
-## Code and Transparency
+## Code 
 <a href="https://github.com/earroyo2/data-science-portfolio/blob/main/projectsFolder/Project2/Project2.ipynb" target="_blank" rel="noopener noreferrer">Please click here to view the code!</a>
+
+## Sources
+
