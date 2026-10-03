@@ -6,7 +6,7 @@ As someone who has recently entered adulthood, one of the most crucial component
 
 
 ## Background and Context
-In order to understand this problem in general, not much is needed to know besides the fact that different aspects of a home (number of bathrooms/bedrooms, location, etc.) impact the price. As for the code aspect of this project, you will need to understand scikit-learn libraries in Python. 
+In order to understand this problem in general, not much is needed to know besides the fact that different aspects of a home (number of bathrooms/bedrooms, location, etc.) impact the price. As for the code aspect of this project, you will need to understand scikit-learn libraries in Python. Since I am not in the real estate field myself, I wanted to get more comfortable with the data that I was looking at, so I decided to look at reports for the nation's (United States) housing market. The Office of Policy Development and Research gives a report every month on the nation's housing market that includes summaries and data. As of June 2026 (the most recent report), "new single-family home sales decreased 4.3 percent" and the "construction of new housing declined" (U.S. Department of Housing and Urban Development 2026). These events may have been caused by the decline in job growth as consumer confidence has hit an "all-time low in April 2026" as Daniel McCue puts it in his blog about the 'Ten Takeaways from the 2026 State of the Nation's Housing' on the Harvard University: Joint Center for Housing Studies website. If there is no economic growth, then less people will be in the market for houses and less people will be able to afford brand new homes. This is a relevant concern, as if the level of economic/job growth continues to decline, then there will be less and less available housing. 
 
 ## Data Description
 As previously stated, the data came from a website called Kaggle and was uploaded by Ahmed Shahriar Sakib. An exact date of publication was not listed, but the website did state that the dataset was last updated 3 years ago. The original dataset that I obtained from the website contained 2,226,382 entries and 10 different columns (Shakhriar Sakib 2023). Each row represents a single listing on Realtor.com with available features such as brokered_by, status, price, bed, bath, acre_lot, street, city, state, zip_code, house_size, and prev_sold_date. Since the data was already prepared in a csv file, I did not have any limitations or restrictions with the data itself.
@@ -59,4 +59,8 @@ There are no biases or gaps that exist in the dataset, but someone who is a new 
 <a href="https://github.com/earroyo2/data-science-portfolio/blob/main/projectsFolder/Project2/Project2.ipynb" target="_blank" rel="noopener noreferrer">Please click here to view the code!</a>
 
 ## Sources
-
+McCue, D. (2026, June 17). Ten takeaways from the 2026 state of the nation’s housing. Joint Center for Housing Studies. https://www.jchs.harvard.edu/blog/ten-takeaways-2026-state-nations-housing
+Office of Policy Development and Research. (2026). USHMC - national housing market indicators | HUD USER. Www.Huduser.Gov. https://www.huduser.gov/portal/ushmc/hmi-update.html
+Realtor. (2018). Find real estate, homes for sale, apartments & houses for rent | realtor.Com®. Realtor.Com. https://www.realtor.com/
+Shahriar Sakib, A. (2023). USA Real Estate dataset. Www.Kaggle.Com. https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
+US Department of Housing and Urban Development. (2026). Housing market indicators monthly update. https://www.huduser.gov/portal/sites/default/files/pdf/Housing-Market-Indicators-Report-June-2026.pdf
