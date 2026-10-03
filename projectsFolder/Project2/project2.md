@@ -56,4 +56,4 @@ There are no biases or gaps that exist in the dataset, but someone who is a new 
 
 
 ## Code and Transparency
-<a href=" " target="_blank" rel="noopener noreferrer">Please click here to view the code!</a>
+<a href="projectsFolder/Project2/Project2.ipynb" target="_blank" rel="noopener noreferrer">Please click here to view the code!</a>
