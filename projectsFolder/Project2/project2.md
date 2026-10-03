@@ -35,7 +35,14 @@ The baseline model that I chose was the linear regression model, as my problem i
 The evaluation metrics that I decided to choose for my models were R^2 and Root Mean Squared Error. I chose these metrics so that I would be able to see the proportion of variance explained by each model, and the amount of dollars that the model is off by on average. Compared to the baseline model, the machine learning models performed only slightly worse than the baseline model. The baseline model (Linear Regression model) had an R^2 value of 0.4564 and a Root Mean Squared Error (RMSE) value of 315,762.85 (in dollars). The Ridge model had an R^2 value of 0.4198 and an RMSE value of 326,187.30. The Lasso model had an R^2 value of 0.4508 and an RMSE value of 317,345.89. After evaluating the metrics of the models, the original baseline model has a higher R^2, making it my final model. 
 
 ## Model Interpretation and Insights
-After running the models and establishing that the baseline model had the best predictions,  
+After creating a bar chart to display the features vs. their coefficients in the Linear Regression model (baseline), the chart showcased that the 'bath' and 'house_size' features have the largest impact on price with coefficients of 255,663.55 and 95,764.56 (respectively). The coefficient values display the price change per single unit of change by feature. 
+
+<img src="BedVPrice.png" alt="BarChart1" width="400">
+
+
+
+One major outlier in the chart that I'd like to point out is the negative coefficient value for the 'bed' feature. This coefficient value came out to be -53,786.09, which is interesting considering the fact that the coefficient for 'bath' is so high (typically the number of bathrooms in a house is dependent on the number of bedrooms). Since the number of bathrooms can be predicted by the number of bedrooms in a house, this would suggest multicollinearity within the model, which explains why the coefficients for the 'bed' and 'bath' variables are the way they are. Now, this does not necessarily mean that the number of bedrooms decreases the price of the house, it simply just means that the number of bathrooms is a better estimator for the price of a home. This may be due to factors such as the plumbing and electricity required to make the bathrooms functional, which makes sense as those functions are more costly than building another empty room. 
+
 
 ## Limitations, Ethics, and Reflection
 
