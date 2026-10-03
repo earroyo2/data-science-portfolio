@@ -43,8 +43,13 @@ After creating a bar chart to display the features vs. their coefficients in the
 
 One major outlier in the chart that I'd like to point out is the negative coefficient value for the 'bed' feature. This coefficient value came out to be -53,786.09, which is interesting considering the fact that the coefficient for 'bath' is so high (typically the number of bathrooms in a house is dependent on the number of bedrooms). Since the number of bathrooms can be predicted by the number of bedrooms in a house, this would suggest multicollinearity within the model, which explains why the coefficients for the 'bed' and 'bath' variables are the way they are. Now, this does not necessarily mean that the number of bedrooms decreases the price of the house, it simply just means that the number of bathrooms is a better estimator for the price of a home. This may be due to factors such as the plumbing and electricity required to make the bathrooms functional, which makes sense as those functions are more costly than building another empty room. 
 
+As for the conclusion that can be drawn for the model: Despite it having the highest R^2 value, the final chosen model is only able to predict 45.63% of the variation in housing prices with the features chosen, meaning that it is not exactly a good model for predicting housing price. Below I have provided a scatterplot displaying the predicted vs. actual prices.
+
+<img src="ActualVsPredicted.png" alt="ScatterPlot3" width="400">
 
 ## Limitations, Ethics, and Reflection
+
+
 
 ## Code and Transparency
 
