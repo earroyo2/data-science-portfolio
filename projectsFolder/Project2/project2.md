@@ -15,12 +15,14 @@ Due to the size of the original dataset (and it exceeding the maximum row count 
 
 <img src="BedVPrice.png" alt="Scatter Plot 1" width="400">
 
+(0.2 meaning 2,000,000)
 
 When looking at the scatterplot above for the number of bedrooms vs. the price per listing, there are obviously a few outliers. Namely, the one listing with 60 bedrooms. This intrigues me, as what kind of residential building for sale has 60 bedrooms? Along with this finding, I noticed that most of the listings on the scatterplot have under 10 bedrooms and are under $2,000,000.
 
 
 <img src="BathVPrice.png" alt="Scatter Plot 2" width="400">
 
+(0.2 meaning 2,000,000)
 
 When looking at the scatterplot above for the number of bathrooms vs. the price per listing, most of the listings have under 10 bathrooms. One listing (in similar fashion to the plot above) has over 50 bathrooms and is just under $4,000,000. 
 
@@ -30,8 +32,10 @@ After looking at the scatterplots above and a few of the outliers, I realized th
 The baseline model that I chose was the linear regression model, as my problem is focused around prediction. As for the machine-learning models, I chose to train Lasso and Ridge models because they are a good alternative if the original model has strong multicollinearity. I did not tune any of the model's settings or hyperparameters, and I ensured that the models were compared fairly by initializing and executing the models in the exact same way, as well as extracted the same metrics.
 
 ## Model Evaluation and Selection
+The evaluation metrics that I decided to choose for my models were R^2 and Root Mean Squared Error. I chose these metrics so that I would be able to see the proportion of variance explained by each model, and the amount of dollars that the model is off by on average. Compared to the baseline model, the machine learning models performed only slightly worse than the baseline model. The baseline model (Linear Regression model) had an R^2 value of 0.4564 and a Root Mean Squared Error (RMSE) value of 315,762.85 (in dollars). The Ridge model had an R^2 value of 0.4198 and an RMSE value of 326,187.30. The Lasso model had an R^2 value of 0.4508 and an RMSE value of 317,345.89. After evaluating the metrics of the models, the original baseline model has a higher R^2, making it my final model. 
 
 ## Model Interpretation and Insights
+After running the models and establishing that the baseline model had the best predictions,  
 
 ## Limitations, Ethics, and Reflection
 
